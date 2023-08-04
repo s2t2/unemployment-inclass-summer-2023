@@ -11,7 +11,7 @@ python-dotenv
 
 # for web app:
 flask # <--- ADD FOR WEB APP
-#gunicorn
+gunicorn # <--- ADD FOR HOSTING ON RENDER SERVER
 
 
 # for testing:
