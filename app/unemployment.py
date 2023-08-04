@@ -48,7 +48,8 @@ def fetch_unemployment_data():
     for d in data:
         d["value"] = float(d["value"]) # this is mutating and will overwrite the data
 
-    return data
+    #return data
+    return []
 
 
 
